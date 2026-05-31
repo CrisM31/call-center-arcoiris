@@ -54,15 +54,15 @@ El proyecto está compuesto por **4 hojas** en Google Sheets:
 ## 🛠️ Técnicas y Fórmulas Aplicadas
 
 ### Funciones de Consulta y Filtrado
-- Para filtrar, ordenar y agregar datos dinámicamente según los filtros de los dashboards (rango de fechas, tipo de agente, orden ascendente/descendente)
+- **`QUERY`** — Para filtrar, ordenar y agregar datos dinámicamente según los filtros de los dashboards (rango de fechas, tipo de agente, orden ascendente/descendente)
 
 ### Funciones de Agregación
-- Suma de minutos de llamada, pausa y gestión por agente
-- Conteo de llamadas, ventas y reclamaciones por agente
-- Cálculo de tiempos medios (llamada: 15 min | pausa: 3 min | gestión: 11 min) y calificación media por agente
+- **`SUMIF`** — Suma de minutos de llamada, pausa y gestión por agente
+- **`COUNTIF`** — Conteo de llamadas, ventas y reclamaciones por agente
+- **`AVERAGEIF`** — Cálculo de tiempos medios (llamada: 15 min | pausa: 3 min | gestión: 11 min) y calificación media por agente
 
 ### Funciones Lógicas y de Clasificación
-- Clasificación automática de agentes en escala de calificación:
+- **`IFS`** — Clasificación automática de agentes en escala de calificación:
   - ⭐ Excelente (5-6) | Muy Buena (4-5) | Buena (3-5) | Mala (2-3) | Muy Mala (1-2)
 
 ### Funciones de Porcentaje y Métricas Derivadas
@@ -86,18 +86,18 @@ Datos descargados del software de gestión del call center. Período analizado: 
 
 | Campo | Tipo | Descripción |
 |---|---|---|
-| uid=501(cris) gid=20(staff) groups=20(staff),12(everyone),61(localaccounts),79(_appserverusr),80(admin),81(_appserveradm),33(_appstore),98(_lpadmin),100(_lpoperator),204(_developer),250(_analyticsusers),395(com.apple.access_ftp),398(com.apple.access_screensharing),399(com.apple.access_ssh),400(com.apple.access_remote_ae),701(com.apple.sharepoint.group.1) | INT | Identificador único del registro diario por agente |
-|  | INT | Identificador del agente |
-|  | TEXT | Nombre completo del agente |
-|  | DATE | Día de registro |
-|  | INT | Minutos totales en llamadas |
-|  | INT | Minutos totales en pausa |
-|  | INT | Minutos totales en gestión |
-|  | INT | Cantidad total de llamadas |
-|  | INT | Ventas realizadas |
-|  | INT | Reclamaciones gestionadas |
-|  | FLOAT | Calificación de calidad del día |
-|  | INT | Llamadas no atendidas |
+| `id` | INT | Identificador único del registro diario por agente |
+| `agente_id` | INT | Identificador del agente |
+| `agente_nombre` | TEXT | Nombre completo del agente |
+| `fecha` | DATE | Día de registro |
+| `min_llamada` | INT | Minutos totales en llamadas |
+| `min_pausa` | INT | Minutos totales en pausa |
+| `min_gestion` | INT | Minutos totales en gestión |
+| `llamadas` | INT | Cantidad total de llamadas |
+| `ventas` | INT | Ventas realizadas |
+| `reclamaciones` | INT | Reclamaciones gestionadas |
+| `calificacion` | FLOAT | Calificación de calidad del día |
+| `llamadas_perdidas` | INT | Llamadas no atendidas |
 
 ---
 
@@ -127,3 +127,4 @@ Datos descargados del software de gestión del call center. Período analizado: 
 ## 📫 Contacto
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/cristobalmoyacantillana/)
+
