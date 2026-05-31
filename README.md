@@ -1,5 +1,5 @@
 # 📞 Análisis de Rendimiento — Call Center Arcoiris
-## 🛠️ Herramientas
+
 <p align="center">
   <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white" />
 </p>
@@ -10,13 +10,7 @@ Proyecto de análisis de datos para el departamento de call center de la empresa
 
 > **Contexto real**: La empresa es una PYME que utiliza Google Sheets como herramienta de análisis. Este proyecto sirve como prueba de concepto para evaluar si migrar a herramientas más avanzadas.
 
-> **Datos**: Los datos en bruto utilizados en este proyecto fueron proporcionados por [Unicorn Academy](https://unicornacademy.es/) en el marco del Bootcamp de Data Analyst, con fines de desarrollo de habilidades y pensamiento analítico.
-
----
-
-## 📊 Dashboard
-
-👉 **[Ver Dashboard en Google Sheets](https://docs.google.com/spreadsheets/d/e/2PACX-1vQTfcWu-J-t3tg2P17yhNmMuVX2gwuwTXH8Dkg4hBLqdEyEB2TbwF2wlmO4aBTIad2lMqfiFImOswO_/pubhtml)**
+> **Datos**: Los datos en bruto utilizados en este proyecto fueron proporcionados por [Unicorn Academy](https://unicornacademy.es/) en el marco del Bootcamp de Data Analyst, con fines de aprendizaje y práctica profesional.
 
 ---
 
@@ -113,6 +107,47 @@ Datos descargados del software de gestión del call center. Período analizado: 
 - Los agentes con mejor calificación de servicio no siempre son los de mayor volumen de llamadas
 - Se detectaron agentes con alta conversión pero también alto volumen de reclamaciones — posible trade-off calidad/velocidad
 - La distribución del tiempo entre llamadas, gestión y pausas muestra oportunidades de redistribución de carga
+
+---
+
+## 🧹 Limpieza de Datos y Proceso Analítico
+
+Antes de construir cualquier análisis, los datos en bruto presentaban inconsistencias que habrían comprometido la calidad de los resultados. Trabajar con datos sucios es una realidad del día a día de un analista, y este proyecto no fue la excepción.
+
+### Problemas encontrados en los datos en bruto
+
+- **Fechas con formato incorrecto** — Las fechas no seguían un formato homogéneo, lo que impedía realizar filtros temporales confiables. Se normalizaron a `DD/MM/YYYY` para garantizar que los filtros por rango de fecha en los dashboards funcionaran correctamente.
+
+- **Registros duplicados** — El dataset original contenía filas duplicadas que habrían inflado métricas como el total de llamadas o ventas, generando conclusiones incorrectas. Se identificaron y eliminaron aplicando criterios de unicidad por combinación de agente y fecha.
+
+- **Errores de formato numérico** — Varios valores numéricos usaban punto como separador decimal en lugar de coma (estándar en español), por lo que Google Sheets los interpretaba como texto y no como números. Esto impedía que funciones como `SUM`, `AVERAGE` o `QUERY` pudieran operar con ellos. Se corrigieron todos antes de comenzar el análisis.
+
+Solo una vez validada y limpia la base de datos se procedió a trabajar con los datos. Ese orden no es arbitrario: **un análisis construido sobre datos sucios produce insights incorrectos**, sin importar qué tan bien estén diseñados los dashboards.
+
+### Flujo de construcción del proyecto
+
+El análisis siguió una secuencia lógica y progresiva:
+
+1. **Datos en bruto → Limpieza y validación** — Corrección de formatos, eliminación de duplicados y verificación de consistencia del dataset completo.
+2. **Hoja "Tabla Agentes" → Primeras agregaciones** — Consolidación del rendimiento por agente usando `SUMIF`, `COUNTIF` y `AVERAGEIF`. Se aplicaron formatos condicionales para identificar visualmente rangos de rendimiento, y se implementó la escala de calificación con `IFS`.
+3. **Dashboard "Rendimiento" → Análisis de productividad** — Tiempos medios del equipo, rankings dinámicos de agentes por volumen de llamadas y evolución temporal con gráficos.
+4. **Dashboard "Desempeño y Calidad" → Análisis comparativo** — Top agentes en ventas, reclamaciones y calidad de servicio, con filtros interactivos por fecha y tipo de agente construidos con `QUERY`.
+
+Este flujo —del dato crudo al insight visual— refleja cómo trabaja un analista en un entorno real: primero confiar en los datos, luego transformarlos, y finalmente comunicarlos de forma clara a quienes toman decisiones.
+
+---
+
+## 📊 Dashboard Interactivo
+
+👉 **[Ver Dashboard en Google Sheets](https://docs.google.com/spreadsheets/d/e/2PACX-1vQTfcWu-J-t3tg2P17yhNmMuVX2gwuwTXH8Dkg4hBLqdEyEB2TbwF2wlmO4aBTIad2lMqfiFImOswO_/pubhtml)**
+
+🌐 **[Ver GitHub Pages](https://crism31.github.io/call-center-arcoiris/)**
+
+---
+
+## 🛠️ Herramientas
+
+![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white)
 
 ---
 
