@@ -1,4 +1,4 @@
-# 📞 Análisis de Rendimiento — Call Center Arcoiris
+# 📞 Análisis de Rendimiento - Call Center Arcoiris
 
 <p align="center">
   <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white" />
