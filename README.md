@@ -20,6 +20,19 @@ Proyecto de análisis de datos para el departamento de call center de la empresa
 
 ---
 
+## 📸 Vista Previa
+
+### 🏆 Desempeño y Calidad
+![Dashboard Desempeño y Calidad](assets/dashboard-calidad.png)
+
+### ⚡ Rendimiento / Productividad
+![Dashboard Rendimiento](assets/dashboard-rendimiento.png)
+
+### 📋 Tabla de Agentes
+![Tabla de Agentes](assets/tabla-agentes.png)
+
+---
+
 ## 🎯 Objetivos del Análisis
 
 | Objetivo | Indicadores clave |
@@ -152,4 +165,5 @@ Este flujo del dato crudo al insight visual— refleja cómo trabaja un analista
 ## 📫 Contacto
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/cristobalmoyacantillana/)
+
 
