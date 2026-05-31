@@ -33,7 +33,7 @@ Proyecto de análisis de datos para el departamento de call center de la empresa
 
 ---
 
-## 📊 Dashboards
+## 📊 Contenido Sheet
 
 El proyecto está compuesto por **4 hojas** en Google Sheets:
 
