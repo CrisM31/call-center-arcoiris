@@ -54,15 +54,15 @@ El proyecto está compuesto por **4 hojas** en Google Sheets:
 ## 🛠️ Técnicas y Fórmulas Aplicadas
 
 ### Funciones de Consulta y Filtrado
-- **** — Para filtrar, ordenar y agregar datos dinámicamente según los filtros de los dashboards (rango de fechas, tipo de agente, orden ascendente/descendente)
+- Para filtrar, ordenar y agregar datos dinámicamente según los filtros de los dashboards (rango de fechas, tipo de agente, orden ascendente/descendente)
 
 ### Funciones de Agregación
-- **** — Suma de minutos de llamada, pausa y gestión por agente
-- **** — Conteo de llamadas, ventas y reclamaciones por agente
-- **** — Cálculo de tiempos medios (llamada: 15 min | pausa: 3 min | gestión: 11 min) y calificación media por agente
+- Suma de minutos de llamada, pausa y gestión por agente
+- Conteo de llamadas, ventas y reclamaciones por agente
+- Cálculo de tiempos medios (llamada: 15 min | pausa: 3 min | gestión: 11 min) y calificación media por agente
 
 ### Funciones Lógicas y de Clasificación
-- **** — Clasificación automática de agentes en escala de calificación:
+- Clasificación automática de agentes en escala de calificación:
   - ⭐ Excelente (5-6) | Muy Buena (4-5) | Buena (3-5) | Mala (2-3) | Muy Mala (1-2)
 
 ### Funciones de Porcentaje y Métricas Derivadas
