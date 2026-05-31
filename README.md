@@ -101,7 +101,9 @@ El proyecto está compuesto por **4 hojas** en Google Sheets:
 
 ## 🗃️ Dataset
 
-Datos descargados del software de gestión del call center. Período analizado: **13 al 25 de noviembre de 2023** | **50 agentes** | **650 registros diarios**.
+Datos descargados del software de gestión del call center. Período analizado: **13 al 25 de noviembre de 2023** | **50 agentes** | **600 registros**.
+
+📥 **[Descargar dataset (CSV)](data/datos_crudos.csv)**
 
 | Campo | Tipo | Descripción |
 |---|---|---|
