@@ -1,5 +1,5 @@
 # 📞 Análisis de Rendimiento — Call Center Arcoiris
-
+## 🛠️ Herramientas
 <p align="center">
   <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white" />
 </p>
@@ -10,7 +10,13 @@ Proyecto de análisis de datos para el departamento de call center de la empresa
 
 > **Contexto real**: La empresa es una PYME que utiliza Google Sheets como herramienta de análisis. Este proyecto sirve como prueba de concepto para evaluar si migrar a herramientas más avanzadas.
 
-> **Datos**: Los datos en bruto utilizados en este proyecto fueron proporcionados por [Unicorn Academy](https://unicornacademy.es/) en el marco del Bootcamp de Data Analyst, con fines de aprendizaje y práctica profesional.
+> **Datos**: Los datos en bruto utilizados en este proyecto fueron proporcionados por [Unicorn Academy](https://unicornacademy.es/) en el marco del Bootcamp de Data Analyst, con fines de desarrollo de habilidades y pensamiento analítico.
+
+---
+
+## 📊 Dashboard
+
+👉 **[Ver Dashboard en Google Sheets](https://docs.google.com/spreadsheets/d/e/2PACX-1vQTfcWu-J-t3tg2P17yhNmMuVX2gwuwTXH8Dkg4hBLqdEyEB2TbwF2wlmO4aBTIad2lMqfiFImOswO_/pubhtml)**
 
 ---
 
@@ -107,20 +113,6 @@ Datos descargados del software de gestión del call center. Período analizado: 
 - Los agentes con mejor calificación de servicio no siempre son los de mayor volumen de llamadas
 - Se detectaron agentes con alta conversión pero también alto volumen de reclamaciones — posible trade-off calidad/velocidad
 - La distribución del tiempo entre llamadas, gestión y pausas muestra oportunidades de redistribución de carga
-
----
-
-## 📊 Dashboard Interactivo
-
-👉 **[Ver Dashboard en Google Sheets](https://docs.google.com/spreadsheets/d/e/2PACX-1vQTfcWu-J-t3tg2P17yhNmMuVX2gwuwTXH8Dkg4hBLqdEyEB2TbwF2wlmO4aBTIad2lMqfiFImOswO_/pubhtml)**
-
-🌐 **[Ver GitHub Pages](https://crism31.github.io/call-center-arcoiris/)**
-
----
-
-## 🛠️ Herramientas
-
-![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white)
 
 ---
 
