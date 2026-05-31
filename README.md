@@ -69,7 +69,7 @@ El proyecto está compuesto por **4 hojas** en Google Sheets:
 
 ### Funciones Lógicas y de Clasificación
 - **`IFS`** — Clasificación automática de agentes en escala de calificación:
-  - ⭐ Excelente (5-6) | Muy Buena (4-5) | Buena (3-5) | Mala (2-3) | Muy Mala (1-2)
+  - Excelente (5-6) | Muy Buena (4-5) | Buena (3-5) | Mala (2-3) | Muy Mala (1-2)
 
 ### Funciones de Porcentaje y Métricas Derivadas
 - Cálculo de **% de conversión** (ventas / llamadas)
