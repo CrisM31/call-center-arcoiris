@@ -8,9 +8,9 @@
 
 ## 📋 Descripción
 
-Proyecto de análisis de datos para el departamento de call center de la empresa **Arcoiris**. A partir de datos extraídos del software de gestión de llamadas, se realizó un análisis exhaustivo del rendimiento diario de los agentes con el objetivo de identificar áreas de mejora, optimizar la calidad del servicio y aumentar la eficacia en ventas y gestión de reclamaciones.
+Proyecto de análisis de datos para el departamento de call center de la empresa **Arcoiris** (Ficticio). Se realizó un análisis exhaustivo del rendimiento diario de los agentes con el objetivo de identificar áreas de mejora, optimizar la calidad del servicio y aumentar la eficacia en ventas y gestión de reclamaciones.
 
-> **Contexto real**: La empresa es una PYME que utiliza Google Sheets como herramienta de análisis. Este proyecto sirve como prueba de concepto para evaluar si migrar a herramientas más avanzadas.
+> **Contexto**: La empresa es una PYME que utiliza Google Sheets como herramienta de análisis. Este proyecto sirve como prueba de concepto para evaluar si migrar a herramientas más avanzadas.
 
 ---
 
