@@ -2,8 +2,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white" />
-  <img src="https://img.shields.io/badge/Estado-Completado-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Bootcamp-Unicorn%20Data%20Analyst-blueviolet?style=for-the-badge" />
 </p>
 
 ## 📋 Descripción
