@@ -29,7 +29,7 @@ Proyecto de análisis de datos para el departamento de call center de la empresa
 
 ## 📊 Dashboard Interactivo
 
-👉 **[Ver Dashboard en Google Sheets](https://docs.google.com/spreadsheets/d/1JQfaTqo1gXlSnNmk47LACNGlOHJk9YOIc4H7H0cHlI0/edit?usp=sharing)**
+👉 **[Ver Dashboard en Google Sheets]([https://docs.google.com/spreadsheets/d/1JQfaTqo1gXlSnNmk47LACNGlOHJk9YOIc4H7H0cHlI0/edit?usp=sharing](https://docs.google.com/spreadsheets/d/e/2PACX-1vQTfcWu-J-t3tg2P17yhNmMuVX2gwuwTXH8Dkg4hBLqdEyEB2TbwF2wlmO4aBTIad2lMqfiFImOswO_/pubhtml))**
 
 El dashboard está dividido en 3 vistas:
 
